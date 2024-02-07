@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, /*Route, Routes*/} from 'react-router-dom';
+import {BrowserRouter as Router,} from 'react-router-dom';
 
 import Header from './views/Header';
 import Footer from './views/Footer';
@@ -7,6 +7,8 @@ import Hero from "./views/Hero";
 import AboutUs from "./views/AboutUs";
 import AboutUsDesc from "./views/AboutUs_Desc";
 import OurTeamExperts from "./views/OurTeamExperts";
+import OurStrhengths from "./views/OurStrhengths";
+import WhatWeDo from "./views/WhatWeDo";
 // import About from './layouts/About';
 // import Main from './layouts/Main';
 // import OsnovniPraktyky from "./layouts/OsnovniPraktyky";
@@ -20,6 +22,8 @@ function App() {
                 <AboutUs/>
                 <AboutUsDesc/>
                 <OurTeamExperts />
+                <OurStrhengths/>
+                <WhatWeDo/>
 
                 {/*<Routes>*/}
                 {/*    <Route path="/" element={<Main/>}/>*/}

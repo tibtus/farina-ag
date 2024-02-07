@@ -172,7 +172,7 @@ a{
     display: flex;
     min-height: 231px;
     position: relative;
-    margin: 130px auto;
+    margin: 130px auto 0px;
 }
 
 .OurTeamExperts_Left{
@@ -204,4 +204,155 @@ a{
     display: block;
     margin: 10px 0;
 
+}
+
+/* 6- BLOCK OurStrhengths */
+.OurStrhengths_Block {
+    max-width: 1170px;
+    height: 266px;
+    margin: 0 auto;
+    background: #0267FF12;
+    display: block;
+    border-radius: 20px;
+    position: relative;
+    padding: 40px;
+    box-sizing: border-box;
+
+}
+
+.OurStrhengths_Name {
+    display: block;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FF00008A;
+    text-transform: uppercase;
+}
+
+.OurStrhengths_Grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 25px;
+}
+
+.OurStrhengths_Grid img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* 7- BLOCK OurStrhengths */
+.WhatWeDo_Block {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 130px auto 0px;
+
+}
+
+.WhatWeDo_Name {
+    display: block;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FF00008A;
+    text-transform: uppercase;
+    height: 216px;
+    margin-top: 100px;
+}
+
+.WhatWeDo_Left_BorderBLock {
+    display: block;
+    width: 396px;
+    height: 572px;
+    border: 2px solid #696765;
+    border-radius: 20px;
+    padding: 80px;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 30px;
+
+}
+
+.WhatWeDo_Left_BorderBLock span {
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    width: 240px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.WhatWeDo_Left_BorderBLock p {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 240px;
+
+}
+
+.WhatWeDo_Right_BorderBLock {
+    display: block;
+    width: 650px;
+    min-height: 216px;
+    border: 2px solid #696765;
+    border-radius: 20px;
+    padding: 10px 80px;
+    margin-bottom: 95px;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.WhatWeDo_Right_BorderBLock span {
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    width: 530px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.WhatWeDo_Right_BorderBLock p {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 530px;
+
+}
+
+.WhatWeDo_Left_img {
+    display: block;
+    position: absolute;
+    top: -3%;
+    left: 80px;
+    background: #FFFFFF;
+    width: 170px;
+    margin: -40px;
+}
+
+.WhatWeDo_Right_img {
+    display: block;
+    position: absolute;
+    top: -29%;
+    left: 41px;
+    background: #FFFFFF;
+    width: 225px;
+    padding-left: 37px;
 }
