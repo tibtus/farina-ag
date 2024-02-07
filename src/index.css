@@ -140,3 +140,68 @@ a{
 .AboutUsBlock_Graf {
     display: block;
 }
+
+/* 4- BLOCK AboutUs_DescBlock */
+
+.AboutUs_DescBlock{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.AboutUs_Desc_Img {
+    display: block;
+    max-width: 763px;
+    height: 231px;
+}
+
+.AboutUs_Desc_Text{
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    max-width: 442px;
+    text-align: justify;
+    align-items: center;
+    padding: 40px;
+}
+
+/* 5- BLOCK OurTeamExperts */
+.OurTeamExperts_Block {
+    display: flex;
+    min-height: 231px;
+    position: relative;
+    margin: 130px auto;
+}
+
+.OurTeamExperts_Left{
+    display: block;
+    width: 50%;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF00008A;
+    text-transform: uppercase;
+    margin: 0 40px;
+
+}
+.OurTeamExperts_Right {
+    display: block;
+    width: 50%;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justify;
+    max-width: 556px;
+}
+
+.OurTeamExperts_Right_Link {
+    display: block;
+    margin: 10px 0;
+
+}

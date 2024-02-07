@@ -5,6 +5,8 @@ import Header from './views/Header';
 import Footer from './views/Footer';
 import Hero from "./views/Hero";
 import AboutUs from "./views/AboutUs";
+import AboutUsDesc from "./views/AboutUs_Desc";
+import OurTeamExperts from "./views/OurTeamExperts";
 // import About from './layouts/About';
 // import Main from './layouts/Main';
 // import OsnovniPraktyky from "./layouts/OsnovniPraktyky";
@@ -16,6 +18,8 @@ function App() {
                 <Header/>
                 <Hero/>
                 <AboutUs/>
+                <AboutUsDesc/>
+                <OurTeamExperts />
 
                 {/*<Routes>*/}
                 {/*    <Route path="/" element={<Main/>}/>*/}
