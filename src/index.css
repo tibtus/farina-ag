@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: "Mulish",'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #696765;
+    background: #FFFFFF;
+    text-decoration: none;
+}
+
+code {
+    font-family: Mulish, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a{
+    text-decoration: none;
+    color: #696765;
+}
+
+.wrapper {
+    max-width: 1366px;
+    border: 1px solid red;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* 1 - BLOCK HEADER */
+.headerBlock {
+    background: #FFFFFF;
+    color: #696765;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-between;
+    height: 151px;
+    margin-bottom: 20px;
+    padding: 0 40px;
+    position: relative;
+}
+.headerBlock_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerBlock_logo img{
+    display: block;
+}
+.headerBlock_nav {
+    display: flex;
+    justify-content: space-between;
+}
+.headerBlock_select {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-content: flex-end; /* Відцентрувати вздовж горизонтальної вісі в кінці контейнера */
+    text-align: center;
+    grid-column-gap: 20px;
+}
+.headerBlock_select > div:nth-child(4) {
+    display: block;
+}
+.headerBlock_select a{
+
+}
+
+.headerBlock_language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    cursor: pointer;
+}
+
+/* 2 - BLOCK Hero */
+.heroBlock {
+    display: block;
+    position: relative;
+    max-width: 1366px;
+}
+/*.heroBlock img{*/
+/*    display: block;*/
+/*    position: relative;*/
+/*    max-width: 1366px;*/
+/*}*/
+.heroBlock_logo {
+    display: block;
+    height: 656px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.heroBlock_text {
+    display: block;
+    position: absolute;
+
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #FFFFFF;
+    text-align: right;
+    top: 48%;
+    right: 80px;
+
+}
+
+
+
+/* 3 - BLOCK AboutUs */
+
+.AboutUsBlock {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 70px auto;
+}
+.AboutUsBlock_Name {
+    display: block;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF00008A;
+    text-transform: uppercase;
+
+}
+.AboutUsBlock_Graf {
+    display: block;
+}
