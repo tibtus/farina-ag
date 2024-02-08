@@ -24,7 +24,7 @@ const WhatWeDo = () => {
     };
 
     return (
-        <section className="WhatWeDo_Block">
+        <section className="WhatWeDo_Block" id="WhatWeDo">
 
             <div className="WhatWeDo_Left">
 

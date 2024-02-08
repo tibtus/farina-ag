@@ -9,7 +9,7 @@ const OurStrhengths = () => {
 
 
     return (
-        <section className="OurStrhengths_Block">
+        <section className="OurStrhengths_Block" id="OurStrhengths">
             <div className="OurStrhengths_Name">
                 OUR STRENGTHS
             </div>

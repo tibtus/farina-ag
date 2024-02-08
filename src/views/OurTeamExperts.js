@@ -5,7 +5,7 @@ const OurTeamExperts = () => {
 
 
     return (
-        <section className="OurTeamExperts_Block">
+        <section className="OurTeamExperts_Block" id="OurTeamExperts">
 
             <div className="OurTeamExperts_Left">
                 OUR TEAM OF EXPERTS

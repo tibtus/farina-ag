@@ -5,8 +5,7 @@ const AboutUs = () => {
 
 
     return (
-        <section className="AboutUsBlock">
-
+        <section className="AboutUsBlock" id="AboutUs">
             <div className="AboutUsBlock_Name">
                 About Us
             </div>

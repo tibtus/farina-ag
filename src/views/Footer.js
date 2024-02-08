@@ -21,8 +21,10 @@ const Footer = () => {
             </div>
 
             <div className="Bottom_Block_address">
+                Grafenberger Allee 277-287,<br/>
                 40237 Düsseldorf <br/>
                 Germany <br/>
+
             </div>
 
 

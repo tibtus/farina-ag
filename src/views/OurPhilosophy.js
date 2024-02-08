@@ -4,7 +4,7 @@ const OurPhilosophy = () => {
 
 
     return (
-        <section className="OurPhilosophy_Block">
+        <section className="OurPhilosophy_Block" id="OurPhilosophy">
 
             <div className="OurPhilosophy_Name">
                 OUR PHILOSOPHY

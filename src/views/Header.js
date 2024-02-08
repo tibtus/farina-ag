@@ -14,12 +14,12 @@ const Header = () => {
             <div className="headerBlock_nav">
 
                 <div className="headerBlock_select">
-                    <div><a href="/">About Us</a></div>
-                    <div><a href="/">Our Strenghts</a></div>
-                    <div><a href="/">Our team of experts</a></div>
+                    <div><a href="#AboutUs">About Us</a></div>
+                    <div><a href="#OurStrhengths">Our Strenghts</a></div>
+                    <div><a href="#OurTeamExperts">Our team of experts</a></div>
                     <div></div>
-                    <div><a href="/">What we do</a></div>
-                    <div><a href="/">Our philosophy</a></div>
+                    <div><a href="#WhatWeDo">What we do</a></div>
+                    <div><a href="#OurPhilosophy">Our philosophy</a></div>
                 </div>
 
                 <div className="headerBlock_language">
