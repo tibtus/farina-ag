@@ -6,12 +6,14 @@ import OurTeamExperts from "../views/OurTeamExperts";
 import OurStrhengths from "../views/OurStrhengths";
 import WhatWeDo from "../views/WhatWeDo";
 import OurPhilosophy from "../views/OurPhilosophy";
+import Header from "../views/Header";
+import Footer from "../views/Footer";
 
 
 const Main = () => {
     return (
         <main>
-
+            <Header/>
             <Hero/>
             <AboutUs/>
             <AboutUsDesc/>
@@ -19,7 +21,7 @@ const Main = () => {
             <OurStrhengths/>
             <WhatWeDo/>
             <OurPhilosophy/>
-
+            <Footer/>
         </main>
     );
 }

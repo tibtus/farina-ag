@@ -14,6 +14,7 @@ const Header = () => {
             <div className="headerBlock_nav">
 
                 <div className="headerBlock_select">
+
                     <div><a href="#AboutUs">About Us</a></div>
                     <div><a href="#OurStrhengths">Our Strenghts</a></div>
                     <div><a href="#OurTeamExperts">Our team of experts</a></div>

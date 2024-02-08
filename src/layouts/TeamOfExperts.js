@@ -1,13 +1,14 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+
+import HeaderTwo from "../views/HeaderTwo";
 
 
 const TeamOfExperts = () => {
     return (
         <div>
-            <h2>TeamOfExperts</h2>
+            <HeaderTwo/>
 
-            <Link to="/">Перейти на сторінку Main</Link>
+            <div></div>
         </div>
     );
 }

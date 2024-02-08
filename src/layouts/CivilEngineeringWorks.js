@@ -1,12 +1,12 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import HeaderTwo from "../views/HeaderTwo";
 
 const CivilEngineeringWorks = () => {
     return (
         <div>
-            <h2>CivilEngineeringWorks </h2>
+            <HeaderTwo/>
 
-            <Link to="/">Перейти на сторінку Main</Link>
+            <div></div>
         </div>
     );
 }
