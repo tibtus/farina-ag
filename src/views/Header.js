@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from './../assets/png/farina_logo.png';
-import logoWorld from './../assets/png/world_svgrepo.png';
 
 const Header = () => {
 
@@ -9,7 +8,7 @@ const Header = () => {
         <header className="headerBlock">
             <div className="headerBlock_logo">
                 <a href="/">
-                 <img src={logo} alt="farina_logo"/>
+                    <img src={logo} alt="farina_logo"/>
                 </a>
             </div>
             <div className="headerBlock_nav">
@@ -24,12 +23,13 @@ const Header = () => {
                 </div>
 
                 <div className="headerBlock_language">
-                    <img src={logoWorld} alt="click_language" onClick={() => {console.log("Click click_language")}}/>
+                    <div id="google_translate_element">
+                    </div>
                 </div>
             </div>
 
         </header>
-);
+    );
 }
 
 export default Header;

@@ -404,3 +404,39 @@ a{
     text-align: left;
 
 }
+
+
+/*----------------------------------------------  google_translate_element  ---------------------------------------------- */
+#google_translate_element .skiptranslate.goog-te-gadget {
+    font-size: 0;
+    line-height: 0;
+    width: 10%;
+}
+
+#google_translate_element .skiptranslate.goog-te-gadget span {
+    display: none;
+}
+
+#google_translate_element .skiptranslate.goog-te-gadget div select {
+    display: block;
+    background: url("./assets/png/world_svgrepo.png") center/cover;
+    height: 40px;
+    width: 40px;
+    margin: 45px auto;
+    border-radius: 100%;
+    transition-duration: 1s;
+    font-size: 0;
+    padding: 0;
+    color: transparent;
+    text-shadow: none;
+    border: none;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#google_translate_element .skiptranslate.goog-te-gadget div select:hover {
+    box-shadow: 0 0 24.5px 10px #dddddd;
+}
+
+
+/*----------------------------------------------  google_translate_element  ---------------------------------------------- */
