@@ -21,7 +21,6 @@ a{
 
 .wrapper {
     max-width: 1366px;
-    border: 1px solid red;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -355,4 +354,53 @@ a{
     background: #FFFFFF;
     width: 225px;
     padding-left: 37px;
+}
+
+/* 8  BLOCK OurPhilosophy_Block */
+.OurPhilosophy_Block {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    max-width: 662px;
+    box-sizing: border-box;
+    margin-left: 160px;
+}
+
+.OurPhilosophy_Name {
+    display: block;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF00008A;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.OurPhilosophy_Text {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 140px;
+}
+
+.Footer_divBot {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    max-width: 1170px;
+    margin: 0 auto 140px;
+    padding: 40px;
+    box-sizing: border-box;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }

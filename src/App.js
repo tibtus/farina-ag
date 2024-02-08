@@ -9,6 +9,7 @@ import AboutUsDesc from "./views/AboutUs_Desc";
 import OurTeamExperts from "./views/OurTeamExperts";
 import OurStrhengths from "./views/OurStrhengths";
 import WhatWeDo from "./views/WhatWeDo";
+import OurPhilosophy from "./views/OurPhilosophy";
 // import About from './layouts/About';
 // import Main from './layouts/Main';
 // import OsnovniPraktyky from "./layouts/OsnovniPraktyky";
@@ -24,6 +25,7 @@ function App() {
                 <OurTeamExperts />
                 <OurStrhengths/>
                 <WhatWeDo/>
+                <OurPhilosophy/>
 
                 {/*<Routes>*/}
                 {/*    <Route path="/" element={<Main/>}/>*/}
