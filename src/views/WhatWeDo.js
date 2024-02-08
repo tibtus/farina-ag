@@ -5,6 +5,7 @@ import frame_3 from "../assets/png/image_10.png";
 import frame_4 from "../assets/png/image_11.png";
 import pdfFile_1 from "../assets/pdf/Brochure_FA_DE.pdf";
 import pdfFile_2 from "../assets/pdf/TUCURUI_2024.pdf";
+import {Link} from "react-router-dom";
 
 const WhatWeDo = () => {
 
@@ -74,9 +75,13 @@ const WhatWeDo = () => {
 
                 <div className="WhatWeDo_Right_BorderBLock">
                     <div className="WhatWeDo_Right_img">
-                        <a href="/">
+
+                        <Link to="/CivilEngineeringWorks">
+
                             <img src={frame_4} alt="img"/>
-                        </a>
+                        </Link>
+
+
                     </div>
                     <span>Civil Engineering Works</span>
                     <p>Our professionals have more than 20 years of experience performing projects of all sizes,

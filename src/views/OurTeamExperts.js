@@ -1,5 +1,6 @@
 import React from 'react';
 import frame from "../assets/png/Arrow1.png";
+import {Link} from "react-router-dom";
 
 const OurTeamExperts = () => {
 
@@ -14,8 +15,10 @@ const OurTeamExperts = () => {
             <div className="OurTeamExperts_Right">
                <span>Highly qualified and certified, our team couples deep industry knowledge with years of hands-on experience to help our clients achieve their particular goals.</span>
                 <div className="OurTeamExperts_Right_Link">
+                    <Link to="/TeamOfExperts">
+                        <img src={frame} alt="frame"/> see more
+                    </Link>
 
-                    <a href="/"><img src={frame} alt="frame"/> see more</a>
                 </div>
             </div>
 
