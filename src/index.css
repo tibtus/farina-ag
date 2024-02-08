@@ -440,3 +440,61 @@ a{
 
 
 /*----------------------------------------------  google_translate_element  ---------------------------------------------- */
+
+/*----------------------------------------------  TeamOfExperts  ---------------------------------------------- */
+.TeamOfExperts {
+    display: block;
+    box-sizing: border-box;
+}
+
+.TeamOfExperts_Name {
+    display: block;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF00008A;
+    text-transform: uppercase;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.TeamOfExperts_Person {
+    display: flex;
+    /*justify-content: space-between;*/
+    margin: 80px;
+    align-content: center;
+    align-items: center;
+
+}
+
+.TeamOfExperts_Person.one img {
+    display: block;
+    width: 352px;
+    height: 650px;
+}
+
+.TeamOfExperts_Person.two img {
+    display: block;
+    width: 283px;
+    height: 364px;
+    margin-left: 120px;
+
+}
+
+.TeamOfExperts_Person.three img {
+    display: block;
+    width: 306px;
+    height: 364px;
+    margin-bottom: 120px;
+}
+
+.TeamOfExperts_Person_text {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 80px;
+}
