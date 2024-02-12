@@ -38,10 +38,11 @@ a{
     transition: 0.3s;
     display: flex;
     justify-content: space-between;
-    height: 151px;
-    margin-bottom: 20px;
+    height: 60px;
     padding: 0 40px;
     position: relative;
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 .headerBlock_logo {
     display: flex;
@@ -61,8 +62,10 @@ a{
     grid-template-rows: repeat(2, 1fr);
     align-items: center;
     justify-content: flex-end; /* Відцентрувати вздовж горизонтальної вісі в кінці контейнера */
-    text-align: center;
+    text-align: start;
     grid-column-gap: 20px;
+    margin-right: 120px;
+
 }
 .headerBlock_select > div:nth-child(4) {
     display: block;
@@ -123,7 +126,7 @@ a{
     flex-direction: column;
     align-content: center;
     align-items: center;
-    margin: 70px auto;
+    margin: 100px auto;
 }
 .AboutUsBlock_Name {
     display: block;
@@ -163,13 +166,14 @@ a{
     max-width: 442px;
     text-align: justify;
     align-items: center;
-    padding: 40px;
+    padding-right: 120px;
 }
 
 /* 5- BLOCK OurTeamExperts */
 .OurTeamExperts_Block {
     display: flex;
     min-height: 231px;
+    padding: 0 100px;
     position: relative;
     margin: 130px auto 0px;
 }
@@ -184,7 +188,7 @@ a{
     text-align: left;
     color: #FF00008A;
     text-transform: uppercase;
-    margin: 0 40px;
+    /*margin: 0 40px;*/
 
 }
 .OurTeamExperts_Right {
@@ -201,8 +205,17 @@ a{
 
 .OurTeamExperts_Right_Link {
     display: block;
-    margin: 10px 0;
+    margin: 5px 0;
 
+}
+
+.OurTeamExperts_Right_Link a {
+    display: flex;
+}
+
+.OurTeamExperts_Right_Link_text {
+    display: block;
+    padding-left: 10px;
 }
 
 /* 6- BLOCK OurStrhengths */
@@ -249,7 +262,7 @@ a{
     display: flex;
     justify-content: space-between;
     max-width: 1170px;
-    margin: 130px auto 0px;
+    margin: 170px auto 0px;
 
 }
 
@@ -354,7 +367,14 @@ a{
     background: #FFFFFF;
     width: 225px;
     padding-left: 37px;
+    transition: filter 0.3s;
 }
+
+
+.WhatWeDo_Right_img:hover img {
+    filter: brightness(0) saturate(100%) invert(72%) sepia(30%) saturate(2646%) hue-rotate(311deg) brightness(99%) contrast(102%);
+}
+
 
 /* 8  BLOCK OurPhilosophy_Block */
 .OurPhilosophy_Block {
@@ -363,7 +383,7 @@ a{
     flex-direction: column;
     max-width: 662px;
     box-sizing: border-box;
-    margin-left: 160px;
+    margin-left: 100px;
 }
 
 .OurPhilosophy_Name {
@@ -393,8 +413,8 @@ a{
     justify-content: space-between;
     position: relative;
     max-width: 1170px;
-    margin: 0 auto 140px;
-    padding: 40px;
+    margin: 100px;
+    padding-bottom: 100px;
     box-sizing: border-box;
 
     font-size: 18px;
@@ -405,6 +425,16 @@ a{
 
 }
 
+.FooterTwo_divBot_wrapper {
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+.Footer_divBot.FooterTwo {
+    min-width: 1366px;
+    margin: 0;
+}
 
 /*----------------------------------------------  google_translate_element  ---------------------------------------------- */
 #google_translate_element .skiptranslate.goog-te-gadget {
@@ -445,6 +475,7 @@ a{
 .TeamOfExperts {
     display: block;
     box-sizing: border-box;
+    height: 2000px;
 }
 
 .TeamOfExperts_Name {
@@ -505,6 +536,7 @@ a{
     box-sizing: border-box;
     position: relative;
     max-width: 1366px;
+    min-height: 3700px;
 }
 
 .CivilEngineeringWorks_Name {
@@ -591,15 +623,49 @@ a{
 
 }
 
-.CivilEngineeringWorks_Object.five .CivilEngineeringWorks_Object_text.right {
+.CivilEngineeringWorks_Object.six {
     display: flex;
-    align-items: flex-end;
-    min-width: 325px;
+    position: absolute;
+    top: 2250px;
+    left: 40px;
+    min-width: 446px;
+    height: 446px;
 }
+
+.CivilEngineeringWorks_Object.seven {
+    display: flex;
+    position: absolute;
+    right: 95px;
+    min-width: 574px;
+    height: 398px;
+    top: 2820px;
+    padding-bottom: 100px;
+}
+
+
 
 .CivilEngineeringWorks_Object.four .CivilEngineeringWorks_Object_text.left {
     display: flex;
     align-items: flex-end;
     min-width: 325px;
     padding-left: 40px;
+}
+
+.CivilEngineeringWorks_Object.five .CivilEngineeringWorks_Object_text.right {
+    display: flex;
+    align-items: flex-end;
+    min-width: 325px;
+}
+
+
+.CivilEngineeringWorks_Object.six .CivilEngineeringWorks_Object_text.left {
+    text-align: left;
+    padding-left: 40px;
+}
+
+.CivilEngineeringWorks_Object.seven .CivilEngineeringWorks_Object_text.right {
+    display: flex;
+    align-items: center;
+    min-width: 325px;
+
 }

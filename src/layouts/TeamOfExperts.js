@@ -4,6 +4,7 @@ import HeaderTwo from "../views/HeaderTwo";
 import img_1 from "../assets/img/Image_1.png";
 import img_2 from "../assets/img/Image_2.png";
 import img_3 from "../assets/img/Image_3.png";
+import FooterTwo from "../views/FooterTwo";
 
 
 const TeamOfExperts = () => {
@@ -37,6 +38,8 @@ const TeamOfExperts = () => {
                     </div>
                 </div>
             </div>
+
+            <FooterTwo/>
 
 
         </div>

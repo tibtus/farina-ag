@@ -1,28 +1,23 @@
 import React from 'react';
-import frame_1 from "../assets/png/image_12.png";
-import frame_2 from "../assets/png/image_9.png";
-import frame_3 from "../assets/png/image_10.png";
-import frame_4 from "../assets/png/image_11.png";
+import frame_1 from "../assets/png/image_12.svg";
+import frame_2 from "../assets/png/image_9.svg";
+import frame_3 from "../assets/png/image_10.svg";
+import frame_4 from "../assets/png/image_11.svg";
 import pdfFile_1 from "../assets/pdf/Brochure_FA_DE.pdf";
 import pdfFile_2 from "../assets/pdf/TUCURUI_2024.pdf";
 import {Link} from "react-router-dom";
+// import frame from "../assets/png/Arrow1.png";
 
 const WhatWeDo = () => {
 
     const handleDownloadPDF = (value) => {
-        // Створюємо посилання для завантаження PDF
-        const link = document.createElement('a');
-        if (value === 1) {
-            link.href = pdfFile_1;
-        } else {
-            link.href = pdfFile_2;
-        }
+        // Визначаємо URL PDF-файлу на основі значення value
+        const pdfUrl = (value === 1) ? pdfFile_1 : pdfFile_2;
 
-        link.download = 'document.pdf';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        // Відкриваємо PDF-файл на новій сторінці
+        window.open(pdfUrl, '_blank');
     };
+
 
     return (
         <section className="WhatWeDo_Block" id="WhatWeDo">
@@ -71,6 +66,8 @@ const WhatWeDo = () => {
                     <span>Hydro-Engineering Works</span>
                     <p>Working in close partnership with Tucurui Ltd, we take pride in our sustainable and responsible
                         approach to each project and guarantee the excellence of services and solutions.</p>
+
+
                 </div>
 
                 <div className="WhatWeDo_Right_BorderBLock">

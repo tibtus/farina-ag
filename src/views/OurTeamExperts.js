@@ -16,7 +16,8 @@ const OurTeamExperts = () => {
                <span>Highly qualified and certified, our team couples deep industry knowledge with years of hands-on experience to help our clients achieve their particular goals.</span>
                 <div className="OurTeamExperts_Right_Link">
                     <Link to="/TeamOfExperts">
-                        <img src={frame} alt="frame"/> see more
+                        <img src={frame} alt="frame"/>
+                        <span className="OurTeamExperts_Right_Link_text">see more</span>
                     </Link>
 
                 </div>

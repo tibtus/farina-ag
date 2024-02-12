@@ -7,15 +7,14 @@ const Footer = () => {
 
 
             <div className="Bottom_Block_tel">
-                tel: <a href="tel:+4917632911459">+49 176 32911459</a> <br/>
-                email: <a href="mailto:farina.ag.bau@gmail.com">farina.ag.bau@gmail.com</a> <br/>
-                www.farina-ag.com
+                email: <a href="mailto:info@farina-ag.de">info@farina-ag.de</a> <br/>
+                www.farina-ag.de
             </div>
 
 
             <div className="Bottom_Block_id">
                 USt-IdNr: DE363846866 <br/>
-                UIC: HRB 54968 <br/>
+                UIC: HRB 103301 <br/>
 
 
             </div>
