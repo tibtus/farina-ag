@@ -61,7 +61,7 @@ a{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     align-items: center;
-    justify-content: flex-end; /* Відцентрувати вздовж горизонтальної вісі в кінці контейнера */
+    justify-content: flex-end;
     text-align: start;
     grid-column-gap: 20px;
     margin-right: 120px;
@@ -916,7 +916,7 @@ a{
     }
 
     .CivilEngineeringWorks {
-        min-height: 5850px;
+        min-height: 4250px;
     }
 
     .CivilEngineeringWorks_Object.one,
@@ -931,13 +931,20 @@ a{
         top: 0;
         left: 0;
         right: 0;
-        width: 300px;
-        min-height: 700px;
+        width: 340px;
+        min-height: 100px;
         min-width: 300px;
-        /*height: 408px;*/
-        /*overflow: hidden;*/
         margin: 40px auto;
 
+    }
+
+    .CivilEngineeringWorks_Object.six .CivilEngineeringWorks_Object_text.left,
+    .CivilEngineeringWorks_Object.four .CivilEngineeringWorks_Object_text.left {
+        padding-left: 0;
+    }
+
+    .CivilEngineeringWorks_Object_text.right {
+        text-align: left;
     }
 
     .CivilEngineeringWorks_Object.one img,
@@ -952,16 +959,55 @@ a{
         top: 0;
         left: 0;
         right: 0;
-        width: 300px;
-        min-height: 400px;
+        width: 340px;
+        min-height: 100px;
         min-width: 300px;
-        /*height: 408px;*/
-        /*overflow: hidden;*/
         margin: 20px auto;
     }
 
-    .CivilEngineeringWorks_Object_text right {
 
+    .Footer_divBot {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /*align-items: center;*/
+        justify-content: center;
+        text-align: center;
+        margin: 0;
     }
+
+    .Bottom_Block_address {
+        margin: 40px auto;
+        display: block;
+        position: absolute;
+        top: 50%;
+        width: 50%;
+        left: 24%;
+    }
+
+    .AboutUs_Desc_Text {
+        padding-right: 0px;
+    }
+
+    .heroBlock_text {
+        display: block;
+        position: absolute;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 34px;
+        color: #FFFFFF;
+        text-align: right;
+        top: 35%;
+        right: 32px;
+    }
+
+    .heroBlock_logo {
+        display: block;
+        height: 341px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
 
 }
