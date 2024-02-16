@@ -6,6 +6,7 @@ import frame_4 from "../assets/png/image_11.svg";
 import pdfFile_1 from "../assets/pdf/Brochure_FA_DE.pdf";
 import pdfFile_2 from "../assets/pdf/TUCURUI_2024.pdf";
 import {Link} from "react-router-dom";
+import frame from "../assets/png/Arrow1.png";
 // import frame from "../assets/png/Arrow1.png";
 
 const WhatWeDo = () => {
@@ -40,6 +41,14 @@ const WhatWeDo = () => {
                         The production is based in Ukraine,
                         at Stekloplast plant, a recognized leader in high-security, energy-saving and low-maintenance
                         solutions.</p>
+
+                    <div className="WhatWeDo_Right_Link">
+                        <Link to="/" onClick={() => handleDownloadPDF(1)}>
+                            <img src={frame} alt="frame"/>
+                            <div className="WhatWeDo_Right_Link_text">see more</div>
+                        </Link>
+
+                    </div>
                 </div>
 
 
@@ -68,6 +77,14 @@ const WhatWeDo = () => {
                         approach to each project and guarantee the excellence of services and solutions.</p>
 
 
+                    <div className="WhatWeDo_Right_Link">
+                        <Link to="/" onClick={() => handleDownloadPDF(2)}>
+                            <img src={frame} alt="frame"/>
+                            <div className="WhatWeDo_Right_Link_text">see more</div>
+                        </Link>
+
+                    </div>
+
                 </div>
 
                 <div className="WhatWeDo_Right_BorderBLock">
@@ -83,6 +100,16 @@ const WhatWeDo = () => {
                     <span>Civil Engineering Works</span>
                     <p>Our professionals have more than 20 years of experience performing projects of all sizes,
                         specifications, and scopes in Ukraine.</p>
+
+
+                    <div className="WhatWeDo_Right_Link">
+                        <Link to="/CivilEngineeringWorks">
+                            <img src={frame} alt="frame"/>
+                            <div className="WhatWeDo_Right_Link_text">see more</div>
+                        </Link>
+
+                    </div>
+
                 </div>
             </div>
 

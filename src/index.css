@@ -282,7 +282,7 @@ a{
 .WhatWeDo_Left_BorderBLock {
     display: block;
     width: 396px;
-    height: 572px;
+    height: 636px;
     border: 2px solid #696765;
     border-radius: 20px;
     padding: 80px;
@@ -362,7 +362,7 @@ a{
 .WhatWeDo_Right_img {
     display: block;
     position: absolute;
-    top: -29%;
+    top: -24%;
     left: 41px;
     background: #FFFFFF;
     width: 225px;
@@ -370,10 +370,34 @@ a{
     transition: filter 0.3s;
 }
 
-
+.WhatWeDo_Left_img:hover img,
 .WhatWeDo_Right_img:hover img {
     filter: brightness(0) saturate(100%) invert(72%) sepia(30%) saturate(2646%) hue-rotate(311deg) brightness(99%) contrast(102%);
 }
+
+
+.WhatWeDo_Right_Link {
+    display: block;
+    height: 30px;
+}
+
+.WhatWeDo_Right_Link a {
+    display: flex;
+}
+
+.WhatWeDo_Right_Link_text {
+    display: block;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justify;
+}
+
+
+
+
 
 
 /* 8  BLOCK OurPhilosophy_Block */
@@ -667,5 +691,277 @@ a{
     display: flex;
     align-items: center;
     min-width: 325px;
+
+}
+
+@media screen and (max-width: 1150px) {
+    .WhatWeDo_Block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .AboutUs_DescBlock {
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .AboutUs_Desc_Img {
+        display: block;
+        width: 100%;
+        height: 231px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .headerBlock_select {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .WhatWeDo_Left_BorderBLock {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        height: 320px;
+        border: 2px solid #696765;
+        border-radius: 20px;
+        padding: 10px 80px;
+        margin-bottom: 95px;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    .WhatWeDo_Left_BorderBLock p {
+        width: 100%;
+    }
+
+    .WhatWeDo_Right_BorderBLock {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        min-height: 216px;
+        border: 2px solid #696765;
+        border-radius: 20px;
+        padding: 10px 80px;
+        margin-bottom: 95px;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    .OurStrhengths_Block {
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .OurStrhengths_Grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .WhatWeDo_Right_BorderBLock p {
+
+        width: 100%;
+    }
+
+    .OurPhilosophy_Text {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media screen and (max-width: 750px) {
+    /*body {*/
+    /*    width: 340px;*/
+    /*    margin: 0 auto;*/
+    /*}*/
+    /*.wrapper {*/
+    /*    width: 340px;*/
+    /*    margin: 0 auto;*/
+    /*}*/
+    .headerBlock_select {
+        margin-right: 0;
+    }
+
+    .headerBlock_select,
+    .AboutUsBlock_Graf {
+        display: none;
+    }
+
+    .headerBlock_nav {
+        display: none;
+    }
+
+    .Footer_divBot {
+
+        flex-direction: column;
+
+    }
+
+    .Bottom_Block_tel,
+    .Bottom_Block_id,
+    .Bottom_Block_address {
+        margin: 40px auto;
+    }
+
+    .AboutUs_Desc_Text {
+
+        width: 100%;
+    }
+
+    .OurTeamExperts_Block {
+        padding: 10px;
+        width: 80%;
+        flex-direction: column;
+        margin-bottom: 40px;
+
+    }
+
+    .OurTeamExperts_Right,
+    .OurTeamExperts_Left {
+        padding-top: 20px;
+        width: 100%;
+
+    }
+
+    .OurStrhengths_Block {
+        padding: 0px;
+    }
+
+    .WhatWeDo_Name {
+        margin-top: 0px;
+    }
+
+    .WhatWeDo_Right_BorderBLock,
+    .WhatWeDo_Left_BorderBLock {
+
+        width: 80%;
+        margin: 0 auto;
+        height: 100%;
+        margin-bottom: 180px;
+
+    }
+
+    .WhatWeDo_Left_BorderBLock span {
+        width: 100%;
+        height: 100%;
+    }
+
+    .WhatWeDo_Right_BorderBLock span {
+        width: 100%;
+    }
+
+    .WhatWeDo_Right_img {
+        top: -9%;
+        left: 33px;
+        width: 150px;
+    }
+
+    .WhatWeDo_Right_Link {
+        height: 63px;
+    }
+
+    .WhatWeDo_Right_Link a img {
+        height: 20px;
+        width: 30px;
+    }
+
+    .OurPhilosophy_Block {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .TeamOfExperts {
+        width: 80%;
+        margin: 0 auto;
+        height: 2630px;
+
+    }
+
+    .TeamOfExperts_Person {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+
+    .TeamOfExperts_Person_text {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0 auto;
+
+    }
+
+    .TeamOfExperts_Person.three img {
+        display: block;
+        width: 306px;
+        height: 364px;
+        margin: 0 auto;
+
+    }
+
+    .FooterTwo_divBot_wrapper,
+    .Footer_divBot.FooterTwo {
+        width: 100%;
+        min-width: 340px;
+        margin: 0 auto;
+    }
+
+    .CivilEngineeringWorks {
+        min-height: 5850px;
+    }
+
+    .CivilEngineeringWorks_Object.one,
+    .CivilEngineeringWorks_Object.two,
+    .CivilEngineeringWorks_Object.three,
+    .CivilEngineeringWorks_Object.four,
+    .CivilEngineeringWorks_Object.five,
+    .CivilEngineeringWorks_Object.six,
+    .CivilEngineeringWorks_Object.seven {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 300px;
+        min-height: 700px;
+        min-width: 300px;
+        /*height: 408px;*/
+        /*overflow: hidden;*/
+        margin: 40px auto;
+
+    }
+
+    .CivilEngineeringWorks_Object.one img,
+    .CivilEngineeringWorks_Object.two img,
+    .CivilEngineeringWorks_Object.three img,
+    .CivilEngineeringWorks_Object.four img,
+    .CivilEngineeringWorks_Object.five img,
+    .CivilEngineeringWorks_Object.six img,
+    .CivilEngineeringWorks_Object.seven img {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 300px;
+        min-height: 400px;
+        min-width: 300px;
+        /*height: 408px;*/
+        /*overflow: hidden;*/
+        margin: 20px auto;
+    }
+
+    .CivilEngineeringWorks_Object_text right {
+
+    }
 
 }
