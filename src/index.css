@@ -275,20 +275,28 @@ a{
     text-align: center;
     color: #FF00008A;
     text-transform: uppercase;
-    height: 216px;
-    margin-top: 100px;
+    /*height: 140px;*/
+    /*margin-top: 100px;*/
+}
+
+.WhatWeDo_Left {
+    display: block;
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
+    /*position: relative;*/
 }
 
 .WhatWeDo_Left_BorderBLock {
     display: block;
     width: 396px;
-    height: 636px;
+    /*height: 636px;*/
     border: 2px solid #696765;
     border-radius: 20px;
-    padding: 80px;
+    padding: 0px 80px;
     box-sizing: border-box;
     position: relative;
-    margin-top: 30px;
+    margin-top: 110px;
+    margin-bottom: 34px;
 
 }
 
@@ -314,6 +322,12 @@ a{
 
 }
 
+.WhatWeDo_Left_BorderBLock.frame5_dop {
+    height: 400px;
+    /*position: relative;*/
+}
+
+
 .WhatWeDo_Right_BorderBLock {
     display: block;
     width: 650px;
@@ -321,7 +335,8 @@ a{
     border: 2px solid #696765;
     border-radius: 20px;
     padding: 10px 80px;
-    margin-bottom: 95px;
+    margin-top: 70px;
+    margin-bottom: 120px;
     box-sizing: border-box;
     position: relative;
 
@@ -357,6 +372,7 @@ a{
     background: #FFFFFF;
     width: 170px;
     margin: -40px;
+    padding-left: 23px;
 }
 
 .WhatWeDo_Right_img {
@@ -772,6 +788,51 @@ a{
 
 }
 
+.CivilEngineeringWorks_Object.six.Works {
+    top: 250px;
+
+}
+
+.CivilEngineeringWorks_Object.three.Works {
+    top: 780px;
+    width: 541px;
+}
+
+.CivilEngineeringWorks_Object.two.Works {
+    top: 1000px;
+    width: 511px;
+}
+
+.CivilEngineeringWorks_Object.three.WorksPlus {
+    top: 1500px;
+    width: 623px;
+}
+
+.CivilEngineeringWorks_Object.two.WorksPlus {
+    top: 2000px;
+    width: 734px;
+}
+
+.CivilEngineeringWorks_Object.three.WorksPlusTwo {
+    top: 2400px;
+    width: 634px;
+}
+
+.CivilEngineeringWorks.Works {
+    min-height: 3200px;
+}
+
+.CivilEngineeringWorks.Works .CivilEngineeringWorks_Name {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #696765;
+
+}
+
+
 @media screen and (max-width: 750px) {
     /*body {*/
     /*    width: 340px;*/
@@ -832,6 +893,13 @@ a{
 
     .WhatWeDo_Name {
         margin-top: 0px;
+        height: 140px;
+    }
+
+    .WhatWeDo_Left_BorderBLock.frame5_dop {
+
+        height: 100%;
+
     }
 
     .WhatWeDo_Right_BorderBLock,
@@ -1007,6 +1075,53 @@ a{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+    }
+
+
+    .CivilEngineeringWorks_Object.six.Works {
+        top: 100px;
+
+    }
+
+    .CivilEngineeringWorks_Object.three.Works {
+        top: 15px;
+        max-width: 340px;
+    }
+
+    .CivilEngineeringWorks_Object.two.Works {
+        top: 50px;
+        max-width: 340px;
+        height: 490px;
+    }
+
+    .CivilEngineeringWorks_Object.three.WorksPlus {
+        top: 0px;
+        max-width: 340px;
+    }
+
+    .CivilEngineeringWorks_Object.two.WorksPlus {
+        top: 50px;
+        max-width: 340px;
+        height: 340px;
+    }
+
+    .CivilEngineeringWorks_Object.three.WorksPlusTwo {
+        top: 50px;
+        max-width: 340px;
+    }
+
+    .CivilEngineeringWorks.Works {
+        min-height: 3200px;
+    }
+
+    .CivilEngineeringWorks.Works .CivilEngineeringWorks_Name {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 43px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #696765;
+
     }
 
 

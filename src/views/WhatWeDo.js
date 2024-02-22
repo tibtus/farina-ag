@@ -3,10 +3,12 @@ import frame_1 from "../assets/png/image_12.svg";
 import frame_2 from "../assets/png/image_9.svg";
 import frame_3 from "../assets/png/image_10.svg";
 import frame_4 from "../assets/png/image_11.svg";
+import frame_5 from "../assets/png/image_13.svg";
 import pdfFile_1 from "../assets/pdf/Brochure_FA_DE.pdf";
 import pdfFile_2 from "../assets/pdf/TUCURUI_2024.pdf";
 import {Link} from "react-router-dom";
 import frame from "../assets/png/Arrow1.png";
+
 // import frame from "../assets/png/Arrow1.png";
 
 const WhatWeDo = () => {
@@ -44,6 +46,31 @@ const WhatWeDo = () => {
 
                     <div className="WhatWeDo_Right_Link">
                         <Link to="/" onClick={() => handleDownloadPDF(1)}>
+                            <img src={frame} alt="frame"/>
+                            <div className="WhatWeDo_Right_Link_text">see more</div>
+                        </Link>
+
+                    </div>
+                </div>
+
+                {/*tibtus*/}
+
+                <div className="WhatWeDo_Left_BorderBLock frame5_dop">
+
+                    <div className="WhatWeDo_Left_img">
+                        <Link to="/RefurbishmentFacadeWorks">
+                            <img src={frame_5} alt="img"/>
+                        </Link>
+                    </div>
+
+
+                    <span>Refurbishment and Facade Works</span>
+                    <p>For more than 15 years, our team of experienced finishing workers has been enhancing and
+                        refining their skills embracing the latest advancements in technology and prioritizing energy
+                        efficiency.</p>
+
+                    <div className="WhatWeDo_Right_Link">
+                        <Link to="/RefurbishmentFacadeWorks">
                             <img src={frame} alt="frame"/>
                             <div className="WhatWeDo_Right_Link_text">see more</div>
                         </Link>

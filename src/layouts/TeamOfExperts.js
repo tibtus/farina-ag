@@ -18,23 +18,22 @@ const TeamOfExperts = () => {
                 </div>
                 <div className="TeamOfExperts_Person one">
                     <img src={img_1} alt="Vladyslav Bilopukhov"/>
-                    <div className="TeamOfExperts_Person_text">Vladyslav Bilopukhov - <br/>
-                        Management Board, <br/>
-                        graduate civil engineer
+                    <div className="TeamOfExperts_Person_text">VladyslavBilopukhov, <br/>
+                        Chairman of Board, <br/>
+                        Civil Engineer
                     </div>
                 </div>
                 <div className="TeamOfExperts_Person two">
                     <img src={img_2} alt="lgor Liedienov"/>
-                    <div className="TeamOfExperts_Person_text">lgor Liedienov - Certified engineer <br/>
-                        of construction machines <br/>
-                        and mechanisms
+                    <div className="TeamOfExperts_Person_text">lgor Liedienov,<br/>
+                        Construction Machinery Engineer <br/>
                     </div>
 
                 </div>
                 <div className="TeamOfExperts_Person three">
                     <img src={img_3} alt="Oleksii Tarasenko"/>
-                    <div className="TeamOfExperts_Person_text">Oleksii Tarasenko - Graduate <br/>
-                        civil engineer
+                    <div className="TeamOfExperts_Person_text">OleksiiTarasenko, <br/>
+                        Civil Engineer
                     </div>
                 </div>
             </div>

@@ -22,22 +22,21 @@ const CivilEngineeringWorks = () => {
                 <div className="CivilEngineeringWorks_Object one">
                     <img src={img_4} alt="CivilEngineeringWorks_Object"/>
                     <div className="CivilEngineeringWorks_Object_text right">
-                        Residential building <br/>
-                        "Pushkin House" <br/>
-                        Crimea, Ukraine
+                        PushkinskiyApartments <br/>
+                        Crimea, Ukraine <br/>
                     </div>
                 </div>
                 <div className="CivilEngineeringWorks_Object two">
                     <img src={img_5} alt="CivilEngineeringWorks_Object"/>
                     <div className="CivilEngineeringWorks_Object_text left">
-                        Office center, Dnipro, Ukraine
+                        Business Center Dnipro, Ukraine
                     </div>
 
                 </div>
                 <div className="CivilEngineeringWorks_Object three">
                     <img src={img_6} alt="CivilEngineeringWorks_Object"/>
                     <div className="CivilEngineeringWorks_Object_text right">
-                        "Appolo" shopping center <br/>
+                        Appolo Mall<br/>
                         Dnipro, Ukraine
                     </div>
                 </div>
@@ -45,8 +44,7 @@ const CivilEngineeringWorks = () => {
                 <div className="CivilEngineeringWorks_Object four">
                     <img src={img_7} alt="CivilEngineeringWorks_Object "/>
                     <div className="CivilEngineeringWorks_Object_text left">
-                        Luxury hotel <br/>
-                        "Axelhof" <br/>
+                        Axelhof BoutiqueHotel <br/>
                         Dnipro, Ukraine
                     </div>
 
@@ -57,8 +55,8 @@ const CivilEngineeringWorks = () => {
 
                     <div className="CivilEngineeringWorks_Object_text right">
                         <span>
-                            Residential building <br/>
-                            "Amsterdam" <br/>
+                            Amsterdam Residential  <br/>
+                            Complex <br/>
                             Dnipro, Ukraine
                         </span>
                     </div>
@@ -70,9 +68,9 @@ const CivilEngineeringWorks = () => {
                 <div className="CivilEngineeringWorks_Object six">
                     <img src={img_9} alt="CivilEngineeringWorks_Object "/>
                     <div className="CivilEngineeringWorks_Object_text left">
-                        Residential building <br/>
-                        "Dacha Dr. Schteingolz" <br/>
-                        Aluschta, Ukraine
+                        Dr SteinholzDacha <br/>
+                        Residential Complex <br/>
+                        Alushta, Ukraine
                     </div>
 
 
@@ -82,7 +80,7 @@ const CivilEngineeringWorks = () => {
 
                     <div className="CivilEngineeringWorks_Object_text right">
                         <span>
-                            Residential building <br/>
+                            Residential Building <br/>
                             Dnipro, Ukraine
                         </span>
                     </div>
