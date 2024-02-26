@@ -781,8 +781,9 @@ a{
     }
 
     .OurPhilosophy_Text {
-        width: 80%;
-        margin: 0 auto;
+        width: 100%;
+        text-align: justify;
+        /*margin: 0 auto;*/
     }
 
 
@@ -846,10 +847,20 @@ a{
         margin-right: 0;
     }
 
-    .headerBlock_select,
-    .AboutUsBlock_Graf {
+    .headerBlock_select {
         display: none;
     }
+
+    .AboutUsBlock_Graf {
+        box-sizing: border-box;
+        display: block;
+        padding: 0 30px;
+    }
+
+    .AboutUsBlock_Graf img {
+        width: 100%;
+    }
+
 
     .headerBlock_nav {
         display: none;
@@ -868,7 +879,7 @@ a{
     }
 
     .AboutUs_Desc_Text {
-
+        padding-top: 30px;
         width: 100%;
     }
 
@@ -1122,6 +1133,11 @@ a{
         text-align: left;
         color: #696765;
 
+    }
+
+    .OurStrhengths_Name {
+        font-size: 28px;
+        line-height: 72px;
     }
 
 
