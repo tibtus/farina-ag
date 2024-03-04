@@ -830,7 +830,52 @@ a{
     letter-spacing: 0em;
     text-align: left;
     color: #696765;
+}
 
+/* Стилі для модального вікна та його фону */
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+
+.ReactModal__Content.ReactModal__Content--after-open {
+    border: none !important;
+    inset: auto !important;
+    padding: 0 !important;
+}
+
+
+.ReactModal__Content {
+    position: relative;
+    outline: none;
+    text-align: center;
+}
+
+.ReactModal__Content img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+
+.ReactModal__Content button {
+    display: none;
 }
 
 
@@ -986,6 +1031,7 @@ a{
         margin: 0 auto;
 
     }
+
 
     .FooterTwo_divBot_wrapper,
     .Footer_divBot.FooterTwo {

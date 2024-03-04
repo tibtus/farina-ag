@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import HeaderTwo from "../views/HeaderTwo";
 import img_4 from "../assets/img/Image_4.png";
 import img_5 from "../assets/img/Image_5.png";
@@ -9,8 +9,23 @@ import img_9 from "../assets/img/Image_9.png";
 import img_10 from "../assets/img/Image_10.png";
 
 import FooterTwo from "../views/FooterTwo";
+import Modal from "react-modal";
 
 const CivilEngineeringWorks = () => {
+
+    const [modalIsOpen, setModalIsOpen] = useState(false);
+    const [selectedImage, setSelectedImage] = useState(null);
+
+    const openModal = (image) => {
+        setSelectedImage(image);
+        setModalIsOpen(true);
+    };
+
+    const closeModal = () => {
+        setSelectedImage(null);
+        setModalIsOpen(false);
+    };
+
     return (
         <div>
             <HeaderTwo/>
@@ -19,21 +34,21 @@ const CivilEngineeringWorks = () => {
                 <div className="CivilEngineeringWorks_Name">
                     Civil Engineering Works
                 </div>
-                <div className="CivilEngineeringWorks_Object one">
+                <div className="CivilEngineeringWorks_Object one" onClick={() => openModal(img_4)}>
                     <img src={img_4} alt="CivilEngineeringWorks_Object"/>
                     <div className="CivilEngineeringWorks_Object_text right">
                         PushkinskiyApartments <br/>
                         Crimea, Ukraine <br/>
                     </div>
                 </div>
-                <div className="CivilEngineeringWorks_Object two">
+                <div className="CivilEngineeringWorks_Object two" onClick={() => openModal(img_5)}>
                     <img src={img_5} alt="CivilEngineeringWorks_Object"/>
                     <div className="CivilEngineeringWorks_Object_text left">
                         Business Center Dnipro, Ukraine
                     </div>
 
                 </div>
-                <div className="CivilEngineeringWorks_Object three">
+                <div className="CivilEngineeringWorks_Object three" onClick={() => openModal(img_6)}>
                     <img src={img_6} alt="CivilEngineeringWorks_Object"/>
                     <div className="CivilEngineeringWorks_Object_text right">
                         Appolo Mall<br/>
@@ -41,7 +56,7 @@ const CivilEngineeringWorks = () => {
                     </div>
                 </div>
 
-                <div className="CivilEngineeringWorks_Object four">
+                <div className="CivilEngineeringWorks_Object four" onClick={() => openModal(img_7)}>
                     <img src={img_7} alt="CivilEngineeringWorks_Object "/>
                     <div className="CivilEngineeringWorks_Object_text left">
                         Axelhof BoutiqueHotel <br/>
@@ -51,7 +66,7 @@ const CivilEngineeringWorks = () => {
 
                 </div>
 
-                <div className="CivilEngineeringWorks_Object five">
+                <div className="CivilEngineeringWorks_Object five" onClick={() => openModal(img_8)}>
 
                     <div className="CivilEngineeringWorks_Object_text right">
                         <span>
@@ -65,7 +80,7 @@ const CivilEngineeringWorks = () => {
                 </div>
 
 
-                <div className="CivilEngineeringWorks_Object six">
+                <div className="CivilEngineeringWorks_Object six" onClick={() => openModal(img_9)}>
                     <img src={img_9} alt="CivilEngineeringWorks_Object "/>
                     <div className="CivilEngineeringWorks_Object_text left">
                         Dr SteinholzDacha <br/>
@@ -76,7 +91,7 @@ const CivilEngineeringWorks = () => {
 
                 </div>
 
-                <div className="CivilEngineeringWorks_Object seven">
+                <div className="CivilEngineeringWorks_Object seven" onClick={() => openModal(img_10)}>
 
                     <div className="CivilEngineeringWorks_Object_text right">
                         <span>
@@ -92,6 +107,15 @@ const CivilEngineeringWorks = () => {
 
             <FooterTwo/>
 
+            <Modal
+                isOpen={modalIsOpen}
+                onRequestClose={closeModal}
+                contentLabel="Image Modal"
+            >
+                <img src={selectedImage} alt="Modal"/>
+                <button onClick={closeModal}>Close Modal</button>
+
+            </Modal>
 
         </div>
     );
