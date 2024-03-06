@@ -6,7 +6,7 @@ const AboutUs = () => {
 
     return (
         <section className="AboutUsBlock" id="AboutUs">
-            <div className="AboutUsBlock_Name">
+            <div className="AboutUsBlock_Name" data-de="Über uns" data-en="About Us">
                 About Us
             </div>
             <div className="AboutUsBlock_Graf">
