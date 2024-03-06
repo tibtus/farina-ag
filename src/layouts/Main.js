@@ -9,13 +9,11 @@ import OurPhilosophy from "../views/OurPhilosophy";
 import Header from "../views/Header";
 import Footer from "../views/Footer";
 
-import {LanguageProvider} from "../Language";
-
 const Main = () => {
 
     return (
-        <LanguageProvider>
-            <main>
+
+        <main>
                 <Header/>
                 <Hero/>
                 <AboutUs/>
@@ -26,7 +24,7 @@ const Main = () => {
                 <OurPhilosophy/>
                 <Footer/>
             </main>
-        </LanguageProvider>
+
     );
 }
 
