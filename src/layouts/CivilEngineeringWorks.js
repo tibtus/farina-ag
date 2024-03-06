@@ -31,7 +31,11 @@ const CivilEngineeringWorks = () => {
             <HeaderTwo/>
 
             <div className="CivilEngineeringWorks">
-                <div className="CivilEngineeringWorks_Name">
+                <div className="CivilEngineeringWorks_Name"
+                     data-de="mehr sehe"
+                     data-en="see more"
+
+                >
                     Civil Engineering Works
                 </div>
                 <div className="CivilEngineeringWorks_Object one" onClick={() => openModal(img_4)}>

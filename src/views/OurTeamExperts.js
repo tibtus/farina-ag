@@ -25,8 +25,8 @@ const OurTeamExperts = () => {
                     <Link to="/TeamOfExperts">
                         <img src={frame} alt="frame"/>
                         <span className="OurTeamExperts_Right_Link_text"
-                              data-de="see more"
-                              data-en="mehr sehe"
+                              data-de="mehr sehe"
+                              data-en="see more"
                         >see more</span>
                     </Link>
 

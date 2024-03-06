@@ -1,20 +1,15 @@
 import React, {useEffect, useState} from 'react';
 import logo from './../assets/png/farina_logo.png';
+import {useLanguage} from "../Language";
 
 const Header = () => {
-
-    const [currentLanguage, setCurrentLanguage] = useState('en');
+    const {currentLanguage, changeLanguage} = useLanguage();
     const [languageModalVisible, setLanguageModalVisible] = useState(false);
 
     useEffect(() => {
         updatePageContent();
         // eslint-disable-next-line
     }, [currentLanguage]);
-
-    const changeLanguage = (language) => {
-        setCurrentLanguage(language);
-        setLanguageModalVisible(false);
-    };
 
     const updatePageContent = () => {
         const elements = document.querySelectorAll('[data-en], [data-de], [data-ua]');

@@ -65,8 +65,8 @@ const WhatWeDo = () => {
                         <Link to="/" onClick={() => handleDownloadPDF(1)}>
                             <img src={frame} alt="frame"/>
                             <div className="WhatWeDo_Right_Link_text"
-                                 data-de="see more"
-                                 data-en="mehr sehe"
+                                 data-de="mehr sehe"
+                                 data-en="see more"
                             >
                                 see more
                             </div>
@@ -105,8 +105,8 @@ const WhatWeDo = () => {
                         <Link to="/RefurbishmentFacadeWorks">
                             <img src={frame} alt="frame"/>
                             <div className="WhatWeDo_Right_Link_text"
-                                 data-de="see more"
-                                 data-en="mehr sehe"
+                                 data-de="mehr sehe"
+                                 data-en="see more"
                             >see more
                             </div>
                         </Link>
@@ -161,8 +161,8 @@ const WhatWeDo = () => {
                         <Link to="/" onClick={() => handleDownloadPDF(2)}>
                             <img src={frame} alt="frame"/>
                             <div className="WhatWeDo_Right_Link_text"
-                                 data-de="see more"
-                                 data-en="mehr sehe"
+                                 data-de="mehr sehe"
+                                 data-en="see more"
                             >see more
                             </div>
                         </Link>
@@ -198,7 +198,11 @@ const WhatWeDo = () => {
                     <div className="WhatWeDo_Right_Link">
                         <Link to="/CivilEngineeringWorks">
                             <img src={frame} alt="frame"/>
-                            <div className="WhatWeDo_Right_Link_text">see more</div>
+                            <div className="WhatWeDo_Right_Link_text"
+                                 data-de="mehr sehe"
+                                 data-en="see more"
+                            >see more
+                            </div>
                         </Link>
 
                     </div>
