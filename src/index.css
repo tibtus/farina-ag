@@ -323,7 +323,7 @@ a{
 }
 
 .WhatWeDo_Left_BorderBLock.frame5_dop {
-    height: 400px;
+    height: 430px;
     /*position: relative;*/
 }
 
@@ -948,9 +948,9 @@ a{
     }
 
 
-    .headerBlock_nav {
-        display: none;
-    }
+    /*.headerBlock_nav {*/
+    /*    display: none;*/
+    /*}*/
 
     .Footer_divBot {
 

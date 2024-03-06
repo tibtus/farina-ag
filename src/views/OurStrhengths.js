@@ -10,7 +10,10 @@ const OurStrhengths = () => {
 
     return (
         <section className="OurStrhengths_Block" id="OurStrhengths">
-            <div className="OurStrhengths_Name">
+            <div className="OurStrhengths_Name"
+                 data-de="UNSERE STÄRKEN"
+                 data-en="OUR STRENGTHS"
+            >
                 OUR STRENGTHS
             </div>
             <div className="OurStrhengths_Grid">

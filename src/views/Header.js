@@ -46,11 +46,14 @@ const Header = () => {
 
                     <div><a href="#AboutUs" data-de="Über uns" data-en="About Us">About Us</a></div>
 
-                    <div><a href="#OurStrhengths">Our Strenghts</a></div>
-                    <div><a href="#OurTeamExperts">Our team of experts</a></div>
+                    <div><a href="#OurStrhengths" data-de="Unser Expertenteam" data-en="Our Strenghts">Our Strenghts</a>
+                    </div>
+                    <div><a href="#OurTeamExperts" data-de="Unsere Stärken" data-en="Our team of experts">Our team of
+                        experts</a></div>
                     <div></div>
-                    <div><a href="#WhatWeDo">What we do</a></div>
-                    <div><a href="#OurPhilosophy">Our philosophy</a></div>
+                    <div><a href="#WhatWeDo" data-de="Unsere Leistungen" data-en="What we do">What we do</a></div>
+                    <div><a href="#OurPhilosophy" data-de="Unsere Philosophie" data-en="Our philosophy">Our
+                        philosophy</a></div>
                 </div>
 
 
