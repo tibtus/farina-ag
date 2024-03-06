@@ -61,8 +61,16 @@ const Header = () => {
                             <div className="modal-content-lang">
 
                                 <div className="language-options">
-                                    <div onClick={() => changeLanguage('en')}>EN</div>
-                                    <div onClick={() => changeLanguage('de')}>GE</div>
+                                    <div onClick={() => {
+                                        changeLanguage('en');
+                                        setLanguageModalVisible(false);
+                                    }}>EN
+                                    </div>
+                                    <div onClick={() => {
+                                        changeLanguage('de');
+                                        setLanguageModalVisible(false);
+                                    }}>GE
+                                    </div>
 
                                 </div>
                             </div>
