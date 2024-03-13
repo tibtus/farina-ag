@@ -211,11 +211,35 @@ a{
 
 .OurTeamExperts_Right_Link a {
     display: flex;
+    cursor: pointer;
 }
 
 .OurTeamExperts_Right_Link_text {
     display: block;
     padding-left: 10px;
+    cursor: pointer;
+}
+
+.OurTeamExperts_Right_Link_text.DopFooter {
+    display: block;
+    padding-left: 0px !important;
+    cursor: pointer;
+}
+
+.Footer_divBot.DopFooterEventy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.Frame_DopFooter {
+    cursor: pointer;
+}
+
+.imageModalFrame70 {
+    /*max-width: 100% !important;*/
+    max-height: 90vh !important;
 }
 
 /* 6- BLOCK OurStrhengths */
@@ -467,7 +491,7 @@ a{
 .FooterTwo_divBot_wrapper {
     display: block;
     position: absolute;
-    bottom: 0;
+    /*bottom: 0;*/
 }
 
 .Footer_divBot.FooterTwo {
@@ -1040,7 +1064,7 @@ a{
     .TeamOfExperts {
         width: 80%;
         margin: 0 auto;
-        height: 2630px;
+        height: 2000px;
 
     }
 
@@ -1081,7 +1105,7 @@ a{
     }
 
     .CivilEngineeringWorks {
-        min-height: 4250px;
+        min-height: 2500px;
     }
 
     .CivilEngineeringWorks_Object.one,
@@ -1208,7 +1232,7 @@ a{
     }
 
     .CivilEngineeringWorks.Works {
-        min-height: 3200px;
+        min-height: 2500px;
     }
 
     .CivilEngineeringWorks.Works .CivilEngineeringWorks_Name {
